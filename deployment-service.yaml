@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: santa
-          image: tornado911/santa:latest
+          image: boubkar/santa:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
